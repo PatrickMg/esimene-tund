@@ -4,6 +4,22 @@
 
 writeDate();
 
+  clock.addEventListener("click", function(){
+
+    console.log('klikk');
+
+  });
+
+window.addEventListener('keypress', function(){
+  console.log(event);
+
+  if(event.charCode == 13){
+
+    alert('enter');
+
+  }
+
+});
 
    window.setInterval(function(){
      // iga ooteaja järel käivitatakse
